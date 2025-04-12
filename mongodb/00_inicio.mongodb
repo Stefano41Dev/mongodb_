@@ -1,0 +1,13 @@
+
+use("sales_clothes")
+
+db.prenda.insertOne(
+    {
+        nombre: "Camisa",
+        colores : ["Amarillo", "Rojo", "Verde"],
+        precio : 12.3,
+        marca : "Stefano"
+    }
+)
+
+db.prenda.find()
